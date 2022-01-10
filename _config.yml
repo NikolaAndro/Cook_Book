@@ -16,9 +16,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Treat Template
+  name: Књига рецепата
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://nikolaandro.github.io/treat-jekyll-template/
 
 # -----
 # Build
