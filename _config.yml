@@ -3,7 +3,7 @@
 
 title: Treat Template
 url: "https://spring-bat.cloudvent.net/"
-baseurl:
+baseurl: Cook_Book
 google_analytics_key:
 newsletter_action:
 disqus_shortname:
@@ -18,7 +18,7 @@ author:
 social:
   name: Књига рецепата
   links:
-    - https://nikolaandro.github.io/treat-jekyll-template/
+    - https://nikolaandro.github.io/Cook_Book/
 
 # -----
 # Build
