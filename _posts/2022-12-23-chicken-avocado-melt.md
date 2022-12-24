@@ -1,9 +1,9 @@
 ---
 date: 2022-12-23
 title: Пилећи Сендвич Са Топљеним Авокадом
-url: /treat-jekyll-template/main_meals/2022/12/23/chicken-avocado-melt/
+url: https://nikolaandro.github.io/treat-jekyll-template/Главни Оброци/2022/12/23/chicken-avocado-melt/
 categories:
-  - main_meals
+  - Главни Оброци
 featured_image: /treat-jekyll-template/images/chicken_avocado_melt.png
 recipe:
   servings: 1 сендвич
