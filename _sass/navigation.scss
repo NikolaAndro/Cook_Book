@@ -10,7 +10,7 @@ nav {
 		display: inline-block;
 		text-decoration: none;
 		padding: 20px 15px;
-		color: #444;
+		color: #fff;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-size: .9em;
@@ -19,13 +19,13 @@ nav {
 // 			color: #888;
 			border-radius: 0;
 		        color: #fff;
-		        background-color: #{{ site.data.template.color.primary }};
+		        background-color: #fed136;
 		}
 
 		&:hover {
 // 			color: #000;
 			outline: 0;
-			color: #{{ site.data.template.color.primary }};
+			color: #fed136;
 		}
 	}
 }
