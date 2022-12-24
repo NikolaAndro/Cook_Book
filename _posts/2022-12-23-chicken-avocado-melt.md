@@ -35,4 +35,4 @@ recipe:
 
 ---
 
-![Meals](/treat-jekyll-template/images/chicken_avocado_melt.png)
+<!-- ![Meals](/treat-jekyll-template/images/chicken_avocado_melt.png) -->
