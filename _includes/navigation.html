@@ -4,7 +4,7 @@
 
 	
 	{% for language in site.data.languages %}		
-		<a>{{ language[icon] }} {{ language[label] }}</a>
+		<a>{{ language.icon }} {{ language.label }}</a>
 	{% endfor %}
 	
 	{% for link in site.data.navigation %}
