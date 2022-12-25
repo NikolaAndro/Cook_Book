@@ -4,7 +4,7 @@
 
 	
 	{% for language in site.data.languages %}		
-		<a title="{{ site.data.translations['viewIn'][language] }} {{ site.data.languages[language].label }}" class="{{language}}" >{{ site.data.languages[language].icon }} {{ site.data.languages[language].label }}</a>
+		<a title="{{ site.data.translations['viewIn'][language] }} {{ site.data.languages[language].label }}" class="{{language}}" >{{ language.icon }} {{ language.label }}</a>
 	{% endfor %}
 	
 	{% for link in site.data.navigation %}
