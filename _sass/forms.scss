@@ -1,7 +1,7 @@
 .button, input[type="submit"] {
 	background: #fff;
 	cursor: pointer;
-	border: 1px solid #666;
+// 	border: 1px solid #666;
 	color: #000;
 	text-decoration: none;
 	padding: 5px 10px;
@@ -12,6 +12,7 @@
 
 	&:hover {
 		background: #fed136;
+		border: 0px;
 		color: #222;
 	}
 
@@ -21,7 +22,7 @@
 }
 
 .button {
-	border-color: #000;
+// 	border-color: #000;
 
 	a {
 		color: #000;
@@ -29,6 +30,7 @@
 		&:hover {
 			color: #222;
 			background: #fed136;
+			border: 0px;
 		}
 	}
 }
