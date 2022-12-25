@@ -17,8 +17,7 @@
 		     -->
 <!-- 	    {% endif %} --> -->
 	
-	{% for language in site.data.languages %}
-		<em>{{ site.data.translations['differentLanguage'][language] }}:</em>
+	{% for language in site.data.languages %}		
 		<a title="{{ site.data.translations['viewIn'][language] }} {{ site.data.languages[language].label }}" class="{{language}}" >{{ site.data.languages[language].icon }} {{ site.data.languages[language].label }}</a>
 	{% endfor %}
 	
