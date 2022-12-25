@@ -1,7 +1,7 @@
-srb:
+- srb:
   label: Српски
   icon: 🇷🇸
-en:
+- en:
   label: English
   icon: 🇬🇧
 
