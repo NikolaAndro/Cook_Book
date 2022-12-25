@@ -6,13 +6,13 @@
 	text-decoration: none;
 	padding: 5px 10px;
 	display: inline-flex;
-  align-items: flex-end;
+  	align-items: flex-end;
 	margin: 0;
 	font-size: .8em;
 
 	&:hover {
-		background: #000;
-		color: #fff;
+		background: #fed136;
+		color: #222;
 	}
 
 	&:focus {
@@ -27,7 +27,8 @@
 		color: #000;
 
 		&:hover {
-			color: #fff;
+			color: #222;
+			background: #fed136;
 		}
 	}
 }
