@@ -43,6 +43,20 @@ layout: default
 <!-- 		<p>This is one of the many fantastic recipes available on this blog</p> -->
 		<div class="button"><a href="{{ site.baseurl }}/recipes">Отвори рецепте</a></div>
 	</div>
+	
+	<footer class="lang-options">
+		<em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
+		<ul>
+		{% for post in posts %}
+			{% for language in site.data.languages %}		
+				<li><a>{{ language.icon }} {{ language.label }}</a></li>
+			{% endfor %}
+			
+		{% endfor %}
+		</ul>
+    	</div>
+   
+	
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>
 		<script>
