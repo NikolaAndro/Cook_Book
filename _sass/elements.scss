@@ -94,18 +94,19 @@ select::-ms-expand {
 	position: relative;
 	display: flex;
 	width: 8em;
-	height: 3em;
+	height: 3.2em;
 	line-height: 3;
 	background: #333;
 	overflow: hidden;
 	border-radius: .25em;
 }
-select {
-	flex: 1;
-	padding: 0 .5em;
-	color: #fff;
-	cursor: pointer;
-}
+.slct-lang {
+      margin-top: 0.8em;
+      flex: 1;
+      padding: 0 .5em;
+      color: #fff;
+      cursor: pointer;
+    }
 /* Arrow */
 .select::after {
 	content: '\25BC';
@@ -120,6 +121,7 @@ select {
 	-o-transition: .25s all ease;
 	transition: .25s all ease;
 	color: #FED136;
+	margin-top: 0.5em;
 }
 /* Transition */
 .select:hover::after {
