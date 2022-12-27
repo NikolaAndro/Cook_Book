@@ -104,7 +104,9 @@ select {
 	padding: 20px;
 	height: 43px;
 	background: #fff;
-	border-color: rgba(0,0,0,0);
+	color: #000;
+// 	border: 1px solid #666;
+	border-color: #666;
 	font-size: 1em;
 	outline: 1px solid #000;
 	&:focus {
