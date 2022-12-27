@@ -10,6 +10,8 @@
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
 	{% endfor %}
+	
+	<!--  Languages	 -->
 	<div class="select">
 	     <select class="slct-lang">
 		{% for language in site.data.languages %}	
