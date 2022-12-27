@@ -96,7 +96,7 @@ select::-ms-expand {
 	width: 8em;
 	height: 3.2em;
 	line-height: 3;
-	background: #333;
+	background: #222;
 	overflow: hidden;
 	border-radius: .25em;
 }
@@ -106,6 +106,7 @@ select::-ms-expand {
       padding: 0 .5em;
       color: #fff;
       cursor: pointer;
+      background: #222;
     }
 /* Arrow */
 .select::after {
