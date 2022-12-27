@@ -82,7 +82,7 @@ select {
 	outline: 0;
 	box-shadow: none;
 	border: 0 !important;
-	background: #333;
+	background: #222;
 	background-image: none;
 }
 /* Remove IE arrow */
@@ -93,7 +93,7 @@ select::-ms-expand {
 .select {
 	position: relative;
 	display: flex;
-	width: 8em;
+	width: 9em;
 	height: 3.2em;
 	line-height: 3;
 	background: #222;
