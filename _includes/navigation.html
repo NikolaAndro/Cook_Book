@@ -3,9 +3,18 @@
 	
 
 	
-	{% for language in site.data.languages %}		
-		<a>{{ language.icon }} {{ language.label }}</a>
-	{% endfor %}
+	
+	<div class="select">
+	     <select class="slct">
+		{% for language in site.data.languages %}	
+		     <option value={{language}}>{{ language.icon }} {{ language.label }}</option>
+		{% endfor %}	   
+<!-- 		<option value="Српски">🇷🇸 Српски</option>
+		<option value="English">🇬🇧 English</option> -->
+
+
+	     </select>      
+	</div>
 	
 	{% for link in site.data.navigation %}
 	{% assign class = "" %}
