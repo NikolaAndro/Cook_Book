@@ -99,6 +99,7 @@ select::-ms-expand {
 	background: #222;
 	overflow: hidden;
 	border-radius: .25em;
+	outline: none !important;
 }
 .slct-lang {
       margin-top: 0.8em;
@@ -107,6 +108,7 @@ select::-ms-expand {
       color: #fff;
       cursor: pointer;
       background: #222;
+      outline: none !important;
     }
 /* Arrow */
 .select::after {
