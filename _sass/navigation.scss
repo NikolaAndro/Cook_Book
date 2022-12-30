@@ -2,7 +2,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	display: flex;
-	justify-content: right;
+	
 	background: #222; //rgba(255, 255, 255, .9);
 	z-index: 999;
 
@@ -14,8 +14,9 @@ nav {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-size: .9em;
-		text-align:right
-
+		text-align:right;
+		justify-content: center;
+		
 		&.active {
 // 			color: #888;
 			border-radius: 0;
