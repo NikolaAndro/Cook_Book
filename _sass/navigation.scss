@@ -31,8 +31,11 @@ nav {
 	
 	#exit {
 		 text-shadow: none;
-		 background-color: #ff0000;
-		 border-radius: 3px;
+// 		 background-color: #ff0000;
+		 border-radius: 3px;	
+		 text-decoration: underline;
+		  text-decoration-color: red;
+		  text-decoration-thickness: 0.1em;
 	      }
 	
 	.navbar-brand {
